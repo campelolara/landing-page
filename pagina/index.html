@@ -5,43 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BaleCoffe</title>
     <meta name="description" content="Explore dezenas de variações da bebida favorita entre devs ao redor do mundo"> <!--descrição-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="../estilos/style.css">
 </head>
 <body>
-    <header>
+    <header class="cabeca">
         <nav>
-            <span>balecoffe</span> <!--div com conteúdo mais específico-->
-            <ul>
+            <span class="logo">ballecoffe</span> <!--div com conteúdo mais específico-->
+            <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Receitas</a></li>
                 <li><a href="#">Novidades</a></li>
                 <li><a href="#">Melhor Avaliação</a></li>
             </ul>
-            <a href="#">Github</a>
+            <a href="#" class="github">Github</a>
         </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <header>
-                <span>novidade</span>
-                <h1>Encontre a receita perfeita</h1>
-                <hr/> <!--linha-->
-                <h2>Explore dezenas de variações da bebida favorita entre devs ao redor do mundo</h2>
-            </header>
+        <div class="principal">
+            <section class="hero">
+                <header class="hero-conteudo">
+                    <span class="destaque" id="d1">novidade</span>
+                    <h1>Encontre a receita perfeita!</h1>
+                    <hr/> <!--linha-->
+                    <h2 class="hero-subtitulo">Explore dezenas de variações da bebida favorita entre devs ao redor do mundo</h2>
+                </header>
+                <div class="hero-imagens-container">
+                    <figure><img src="../imagens/image1.png" alt="imagens"></figure>
+                    <figure><img src="../imagens/image2.png" alt="imagens"></figure>
+                    <figure><img src="../imagens/image3.png" alt="imagens"></figure>
+                    <figure><img src="../imagens/image4.png" alt="imagens"></figure>
+                    <figure><img src="../imagens/image5.png" alt="imagens"></figure>
+                    <figure><img src="../imagens/image6.png" alt="imagens"></figure>
+                    <figure><img src="../imagens/image7.png" alt="imagens"></figure>
+                    <figure><img src="../imagens/image8.png" alt="imagens"></figure>
+                    <figure><img src="../imagens/image9.png" alt="imagens"></figure>
+                    <figure><img src="../imagens/image10.png" alt="imagens"></figure>
+                    <figure><img src="../imagens/image12.png" alt="imagens"></figure>
+                </div>
+            </section>
+        </div>
 
-            <div>
-            
-            </div>
+        <section class="botao">
+            <input type="button" class="material-symbols-outlined" value="stat_minus_2">
         </section>
 
-        <section></section>
+        <section>
+            <header>
+                <span>receitas</span>
+                <h2>Confira as últimas receitas</h2>
+                <p>Dê uma olhada nas receitas mais amadas</p>
+            </header>
+
+            <div class="conteiner">
+
+                <div>
+                    <header>
+                        <div>
+                            <span>em alta &#x1F525</span>
+                            <h3>Capucchino &#x2615</h3>
+                        </div>
+                        <p>Extraordinário - 4/4</p>
+                    </header>
+                    <p>Uma bebida ideal para os amantes de doce e cremosidade &#x1F60D</p>
+                    <div>
+                        <img src="../imagens/perfil.png" alt="perfil">
+                        <span>Lara Campelo</span>
+                    </div>
+                </div> 
+        </section>
     </main>
 
-
-
-
-
-    <footer> </footer>
+    <footer>
+        <p>Copyright &lt;CODEFEE /&gt; 2023</p>
+        <p>Feito com muito ♥ e café por Lara Campelo</p>
+    </footer>
 </body>
 </html>

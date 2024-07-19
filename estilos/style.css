@@ -161,6 +161,7 @@ div.hero-imagens-container > figure > img {
     width: 50px;
     height: 50px;
     cursor: pointer;
+    
 }
 
 .botao > input:active {
@@ -172,3 +173,129 @@ div.hero-imagens-container > figure > img {
     font-size: 1.4em;
     transform: translateY(3px);
 }
+
+.receitas {
+    display: flex;
+    flex-flow: column wrap;
+
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+
+
+.receitas-cabecalho {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.5rem;
+}
+
+.receitas > header.receitas-cabecalho > h2 {
+    font-family: Montserrat;
+    font-size: 2em;
+    font-weight: 700;
+    color: #FFF2EF;
+}
+
+ .receitas > header > p {
+    color: #C7BAB3;
+    font-size: 1em;
+    font-weight: 400;
+ }
+
+ .receitas-card-container {
+    padding: 0rem 10rem;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+ }
+
+ .receitas-card {
+    background: #241A1C;
+    padding: 2rem;
+    border-radius: 0.5em;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2rem;
+    flex-basis: 29rem;
+    margin-top: 2rem;
+ }
+
+ .receitas-card > header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: end;
+ }
+
+ .receitas-card > header > div {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.5rem;
+ }
+
+ #d2 {
+    color: #E7A80E;
+ }
+
+ .receitas-card > header > div > h3 {
+    color: FFF2E7;
+    font-family: Montserrat;
+    font-size: 1.5em;
+    font-weight: 700;
+ }
+
+ .receitas-card > header > p {
+    color: #756A67;
+    font-size: 1em;
+ }
+
+ .receitas-card > p.descricao {
+    color: #C7BAB3;
+    font-size: 1em;
+    font-weight: 400;
+ }
+
+ .perfil-autor {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 0.5rem;
+ }
+
+ .perfil-autor > img {
+    border-radius: 50%;
+    width: 1.5rem;
+ }
+
+ .perfil-autor > span {
+    color: #C7BAB3;
+    font-size: 1em;
+    font-weight: 600;
+
+ }
+
+ footer {
+    display: flex;
+    flex-flow: column wrap;
+
+    padding: 4rem;
+    align-items: center;
+    gap: 0.5rem;
+    background: #23181A;
+ }
+
+ .footer-copy {
+    color: #FFF2E7;
+    font-size: 0.9em;
+
+ }
+
+ .footer-autor {
+    color: rgba(255, 242, 231, 0.50);
+    font-size: 0.9em;
+ }
+
+
+
